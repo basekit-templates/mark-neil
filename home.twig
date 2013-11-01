@@ -1,0 +1,74 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<div class="bk-pt-homepage">
+
+
+<div class="right-nav">
+        <header>
+            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+             {{widget('content', 'headercontent', {"content":"<p>lorem</p>"})|raw}}
+        </header>
+        <div class="vertical-nav">
+            {{widget('extendednavigation', 'navigationheader', {})|raw}}
+        </div>
+</div>
+
+
+
+<div class="top-nav wrapper clearfix">
+    <header>
+        <div class="companyheader clearfix">
+            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+             {{widget('content', 'headercontent', {"content":"<p>lorem</p>"})|raw}}
+        </div>
+    </header>
+        {{widget('extendednavigation', 'navigationheader', {})|raw}}
+</div>
+
+
+
+
+<div class="left-content">
+
+    <div class="main wrapper clearfix">
+
+        <div class="feature-slideshow">
+             {{widget('responsiveslideshow', 'responsiveslideshow',
+              {'duration':'3',
+                'transSpeed': '1000',
+                'transType': 'fade',
+                'showButtons': false,
+                'showBullets': true,
+                'allowPause': false,
+                'allowLoop': true,
+                'showDescription': true,
+                'showTitle': true,
+                'images':
+                  [
+                    {'imageHeight':'auto', 'imageWidth':'100%', 'url':asset('/images/gallery/1.jpg'), 'title':'', 'description': ''},
+                    {'imageHeight':'auto', 'imageWidth':'100%', 'url':asset('/images/gallery/2.jpg'), 'title':'', 'description': ''},
+                    {'imageHeight':'auto', 'imageWidth':'100%', 'url':asset('/images/gallery/3.jpg'), 'title':'', 'description': ''}
+                  ]
+                })|raw}}
+        </div>
+
+            {{zone('main')|raw}}
+
+    </div>  
+
+</div>
+
+
+
+<footer>
+    <div class="wrapper clearfix">       
+            {{widget('profile', 'footercolumn1profileEmail', { 'profileType':'email', 'email':'profile'})|raw}}
+    </div>
+</footer>
+
+
+</div>
+
+{% endblock %}

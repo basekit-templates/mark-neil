@@ -1,0 +1,146 @@
+{
+	"name":"Mark Neil",
+	"thumbnail":"mark-neil.png",
+	"screenshot":"mark-neil.png",
+    "tags": {
+    "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "flexible", "open", "simple", "restaurant", "sans-serif"],
+    "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "flexible", "abierto", "simple", "restaurante", "sans-serif"],
+    "br": ["minimalista", "limpo", "fotografia", "moderno", "colorido", "flexível", "aberto", "simples", "restaurante", "sans-serif"]
+    },
+	"colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#ffffff",
+            "color2":"#619790",
+            "color3":"#f2f2f2",
+            "color4":"#8c8b8c",
+            "color5":"#3a302d",
+            "color6":"#8c8b8c",
+            "color7":"#ffffff"
+        },
+        "Swatch 2": {
+            "color1":"#ffffff",
+            "color2":"#f58775",
+            "color3":"#f2f2f2",
+            "color4":"#8c8b8c",
+            "color5":"#3a302d",
+            "color6":"#3a302d",
+            "color7":"#ffffff"
+        },
+        "Swatch 3": {
+            "color1":"#ffffff",
+            "color2":"#26B9B3",
+            "color3":"#F0FCFB",
+            "color4":"#8c8b8c",
+            "color5":"#3a302d",
+            "color6":"#584c48",
+            "color7":"#ffffff"
+        },
+        "Swatch 4": {
+            "color1":"#ffffff",
+            "color2":"#de8a42",
+            "color3":"#f3f3f3",
+            "color4":"#96928f",
+            "color5":"#6b6967",
+            "color6":"#837F7B",
+            "color7":"#ffffff"
+        },
+        "Swatch 5": {
+            "color1":"#ffffff",
+            "color2":"#E53636",
+            "color3":"#f2f2f2",
+            "color4":"#8c8b8c",
+            "color5":"#3a302d",
+            "color6":"#8c8b8c",
+            "color7":"#ffffff"
+        }
+    },
+    "fontSwatch": {
+       "title": "PT Sans",
+        "font1": {
+            "font-family": "PT Sans",
+            "font-size": "30px",
+            "font-weight": "400",
+            "line-height": "40px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "PT Sans",
+            "font-size": "28px",
+            "font-weight": "inherit",
+            "line-height": "38px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "PT Sans",
+            "font-size": "22px",
+            "font-weight": "inherit",
+            "line-height": "32px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "PT Sans",
+            "font-size": "20px",
+            "font-weight": "inherit",
+            "line-height": "30px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "PT Sans",
+            "font-size": "15px",
+            "font-weight": "400",
+            "line-height": "25px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "PT Sans",
+            "font-size": "14px",
+            "font-weight": "400",
+            "line-height": "24px",
+            "color": "@color-swatch6",
+            "color-hover": "lighten(@color-swatch6,20%)",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch7",
+            "background-color-hover": "@color-swatch7"
+        },
+        "font7": {
+            "font-family": "PT Sans",
+            "font-size": "15px",
+            "font-weight": "400",
+            "line-height": "25px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "darken(@color-swatch3,5%)"
+        },
+        "font8": {
+            "font-family": "PT Sans",
+            "font-size": "15px",
+            "font-weight": "400",
+            "line-height": "25px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "PT Sans",
+            "font-size": "15px",
+            "font-weight": "400",
+            "line-height": "25px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "PT Mono",
+            "font-size": "22px",
+            "font-weight": "400",
+            "line-height": "32px",
+            "color": "@color-swatch6",
+            "letter-spacing": "inherit"
+        }
+    }
+}

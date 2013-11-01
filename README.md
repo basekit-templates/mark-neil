@@ -1,4 +1,4 @@
-mark-neil
-=========
+Mark Neil Portfolio
+===================
 
-Mark Neil BaseKit Template
+BaseKit's Mark Neil Portfolio Template

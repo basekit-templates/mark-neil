@@ -1,0 +1,51 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<div class="bk-pt-default">
+
+
+<div class="right-nav">
+        <header>
+            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+             {{widget('content', 'headercontent', {"content":"<p>lorem</p>"})|raw}}
+        </header>
+        <div class="vertical-nav">
+            {{widget('extendednavigation', 'navigationheader', {})|raw}}
+        </div>
+</div>
+
+
+
+<div class="top-nav wrapper clearfix">
+    <header>
+        <div class="companyheader clearfix">
+        {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+        {{widget('content', 'headercontent', {"content":"<p>lorem</p>"})|raw}}
+        </div>
+    </header>
+        {{widget('extendednavigation', 'navigationheader', {})|raw}}
+</div>
+
+
+
+
+<div class="left-content">
+
+    <div class="main wrapper clearfix">
+        {{zone('main')|raw}}
+    </div>  
+
+</div>
+
+
+
+<footer>
+    <div class="wrapper clearfix">       
+            {{widget('profile', 'footercolumn1profileEmail', { 'profileType':'email', 'email':'profile'})|raw}}
+    </div>
+</footer>
+
+</div>
+
+{% endblock %}
