@@ -3,9 +3,9 @@
 	"thumbnail":"mark-neil.png",
 	"screenshot":"mark-neil.png",
     "tags": {
-    "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "flexible", "open", "simple", "restaurant", "sans-serif"],
-    "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "flexible", "abierto", "simple", "restaurante", "sans-serif"],
-    "br": ["minimalista", "limpo", "fotografia", "moderno", "colorido", "flexível", "aberto", "simples", "restaurante", "sans-serif"]
+    "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "flexible", "open", "simple", "independent", "art", "portfolio", "design", "creative"],
+    "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "flexible", "abierto", "simple", "independiente", "arte", "portafolio", "diseño", "creativo"],
+    "br": ["minimalista", "limpo", "fotografia", "moderno", "colorido", "flexível", "aberto", "simples", "independente", "arte", "portfolio", "design", "criativo"]
     },
 	"colorSwatches":
     {
@@ -103,7 +103,7 @@
             "font-weight": "400",
             "line-height": "24px",
             "color": "@color-swatch6",
-            "color-hover": "lighten(@color-swatch6,20%)",
+            "color-hover": "lighten(@color-swatch6,15%)",
             "letter-spacing": "inherit",
             "background-color": "@color-swatch7",
             "background-color-hover": "@color-swatch7"
