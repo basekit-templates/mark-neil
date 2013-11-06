@@ -1,5 +1,5 @@
 body {
-    background-color: @color-swatch1;
+    background-color: @color-swatch2;
     margin: 0;
     padding: 0;
     border-top: 6px solid @color-swatch2;
@@ -132,7 +132,8 @@ blockquote:before {
 
 .right-content { 
 padding-left: 190px;
-min-height: 700px;
+
+background-color: @color-swatch1;
 }
 
 .main {
@@ -141,19 +142,19 @@ min-height: 700px;
 
 
 @media only screen and (max-width: 1500px) { 
-  .right-content {
+  .main {
     width: 90%;
   }
 }
 
 @media only screen and (max-width: 1280px) { 
-  .right-content {
+ .main {
     width: 80%;
   }
 }
 
 @media only screen and (max-width: 900px) { 
-  .right-content {
+   .main {
     width: 75%;
   }
 }
@@ -227,8 +228,8 @@ header nav {
 
 footer {
     background-color: @color-swatch2;
-    padding: 20px 0 20px 230px;
-    margin-top: 3em;
+    padding: 0 0 0 230px;
+    margin-top: 1em;
     color: @color-swatch6;
     text-align: left;
 }
@@ -297,12 +298,14 @@ footer h4 {
 .vertical-nav .widget.extendednavigation {
     text-align: left;
     position: relative;
+    background-color: @color-swatch1;
 }
 
 .vertical-nav .widget.extendednavigation ul {
     padding: 150px 0 0 10px;
     margin: 0;
     text-align: left;
+    background-color: @color-swatch1;
 }
 
 
@@ -1494,16 +1497,42 @@ footer .widget.profile .twitter span {
     border-top: 4px solid @color-swatch2; 
   }
 
+  header {
+  padding: 20px 0 14px;
+  width: 90%;
+  margin: 0 auto;
+  border-right: none;
+}
+
+footer {
+  min-height: auto;
+  padding: 0 5%;
+
+}
+
+header .widget.content {
+  float: left;
+  width: 100%;
+}
+
+header .widget.content p {
+  text-align: left;
+}
+
 
 .right-content {
-  width: 90%;
-  margin: 0 5%;
+  width: 100%;
+  margin: 0;
   padding: 0;
-  min-height: 700px;
+  
+  background-color: @color-swatch1;
 }
 
 .main {
-    padding: 1em 0;
+  width: 90%;
+  margin: 0 5%;
+  padding: 0;
+  padding: 1em 0;
 }
 
 .left-nav {
@@ -1517,28 +1546,6 @@ footer .widget.profile .twitter span {
 .top-nav {
   display: block;
   background-color: @color-swatch7;
-}
-
-header {
-  padding: 20px 0 14px;
-  width: 90%;
-  margin: 0 auto;
-  border-right: none;
-}
-
-footer {
-  min-height: auto;
-  padding: 3% 5%;
-
-}
-
-header .widget.content {
-  float: left;
-  width: 100%;
-}
-
-header .widget.content p {
-  text-align: left;
 }
 
 
@@ -1574,6 +1581,15 @@ header .widget.content p {
 
   .top-nav {
     border-bottom: 1px solid lighten(@color-swatch6,30%);
+  }
+
+
+  .widget.extendednavigation .bk-overlay {
+      width: 200px;
+      height: 85px;
+      float: right;
+      top: -85px !important;
+      left: 90% !important;
   }
 
 
@@ -1742,8 +1758,7 @@ header .widget.content p {
 @media only screen and (max-width: 480px) { 
 
     footer {
-        padding: 1.5em 0;
-        min-height: 90px;
+        padding: 0;
     }
 
     footer .wrapper {
@@ -1754,6 +1769,10 @@ header .widget.content p {
     footer h1, footer h2, footer h3, footer h4 {
         padding-bottom: 20px;
     }
+
+  .widget.extendednavigation .bk-overlay {
+      left: 80% !important;
+  }
 
 
     .widget.profile {
