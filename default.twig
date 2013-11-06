@@ -7,11 +7,11 @@
 
 <div class="left-nav">
         <header>
-            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
-             {{widget('content', 'headercontent', {"content":"<p>lorem</p>"})|raw}}
+            {{widget('companyname', 'sidecompanyname', {"business": "profile"})|raw}}
+             {{widget('content', 'sideheadercontent', {"content":"<p>lorem</p>"})|raw}}
         </header>
         <div class="vertical-nav">
-            {{widget('extendednavigation', 'navigationheader', {})|raw}}
+            {{widget('extendednavigation', 'sidenavigationheader', {})|raw}}
         </div>
 </div>
 
@@ -20,11 +20,11 @@
 <div class="top-nav wrapper clearfix">
     <header>
         <div class="companyheader clearfix">
-            {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
-             {{widget('content', 'headercontent', {"content":"<p>lorem</p>"})|raw}}
+            {{widget('companyname', 'topcompanyname', {"business": "profile"})|raw}}
+             {{widget('content', 'topheadercontent', {"content":"<p>lorem</p>"})|raw}}
         </div>
     </header>
-        {{widget('extendednavigation', 'navigationheader', {})|raw}}
+        {{widget('extendednavigation', 'topnavigationheader', {})|raw}}
 </div>
 
 
