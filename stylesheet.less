@@ -184,7 +184,8 @@ header {
 }
 
 .vertical-nav {
-border-right: 1px solid @color-swatch4;
+  border-right: 1px solid @color-swatch4;
+  float: left;
 }
 
 /* SUB NAV */
@@ -203,6 +204,7 @@ header nav {
 .widget.companyname {
   text-align: right;
   overflow: hidden;
+  float: right;
 }
 
 .companyname a:hover {
@@ -218,6 +220,10 @@ header nav {
   font-size: @font-swatch10-font-size;
   padding: 0 10px 0 0;
   text-align: right;
+}
+
+header .widget.content {
+  width: 100%;
 }
 
 
@@ -332,6 +338,7 @@ footer h4 {
 
 .vertical-nav .widget.extendednavigation ul li {
     display: block;
+    width: 100%;
 }
 
 .vertical-nav .widget.extendednavigation ul li a {
