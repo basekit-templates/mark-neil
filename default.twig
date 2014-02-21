@@ -4,47 +4,35 @@
 
 <div class="bk-pt-default">
 
-
 <div class="left-nav">
-        <header>
-            {{widget('companyname', 'sidecompanyname', {"business": "profile"})|raw}}
-             {{widget('content', 'sideheadercontent', {"content":"<p>lorem</p>"})|raw}}
-        </header>
-        <div class="vertical-nav">
-            {{widget('extendednavigation', 'sidenavigationheader', {})|raw}}
-        </div>
+    <header class="bk-header">
+        {{widget('companyname', 'sidecompanyname', {"business": "profile"})|raw}}
+        {widget('content', 'sideheadercontent', {"content":"<p>lorem</p>"})|raw}}
+    </header>
+    <div class="vertical-nav">
+        {{widget('extendednavigation', 'sidenavigationheader', {})|raw}}
+    </div>
 </div>
 
-
-
 <div class="top-nav wrapper clearfix">
-    <header>
+    <header class="bk-header">
         <div class="companyheader clearfix">
             {{widget('companyname', 'topcompanyname', {"business": "profile"})|raw}}
-             {{widget('content', 'topheadercontent', {"content":"<p>lorem</p>"})|raw}}
+            {{widget('content', 'topheadercontent', {"content":"<p>lorem</p>"})|raw}}
         </div>
     </header>
         {{widget('extendednavigation', 'topnavigationheader', {})|raw}}
 </div>
 
-
-
-
 <div class="right-content">
-
     <div class="main wrapper clearfix">
-
-            {{zone('main')|raw}}
-
+        {{zone('main')|raw}}
     </div>  
-
 </div>
 
-
-
-<footer>
+<footer class="bk-footer">
     <div class="wrapper clearfix">       
-            {{widget('profile', 'footercolumn1profileEmail', { 'profileType':'email', 'email':'profile'})|raw}}
+        {{widget('profile', 'footercolumn1profileEmail', { 'profileType':'email', 'email':'profile'})|raw}}
     </div>
 </footer>
 
