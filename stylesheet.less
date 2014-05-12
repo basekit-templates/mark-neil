@@ -1159,12 +1159,8 @@ color: @color-swatch1;
 @media only screen and (max-width: 768px) { 
 
 
-  body {
-    border-top: 4px solid @color-swatch2; 
-  }
-
-.bk-pt-default .main {
-  padding-top: 2em;
+body {
+  border-top: 4px solid @color-swatch2; 
 }
 
 .bk-header {
@@ -1183,7 +1179,6 @@ color: @color-swatch1;
   text-align: left;
 }
 
-
 .right-content {
   width: 100%;
   margin: 0;
@@ -1196,6 +1191,10 @@ color: @color-swatch1;
   margin: 0 5%;
   padding: 0;
   padding: 1em 0;
+}
+
+.bk-pt-default .main {
+  padding-top: 2em;
 }
 
 .left-nav {
@@ -1215,7 +1214,6 @@ color: @color-swatch1;
 .widget.profile .twitter {
   width: 50%;
 }
-
 
 .companyheader {
     display: block;
@@ -1242,6 +1240,10 @@ color: @color-swatch1;
 }
 
     /* NAV */
+
+.widget.extendednavigation .bk-overlay {
+  width: 100%;
+}
 
   .widget.extendednavigation {
       display: block;
@@ -1288,8 +1290,6 @@ color: @color-swatch1;
     text-align: left;
     display: block;
   }
-
-
 
    .widget.extendednavigation ul li:last-child {
     border-bottom: none;
@@ -1392,12 +1392,12 @@ color: @color-swatch1;
     margin: 0 0 50px;
   }
 
-     /* GALLERY */
+   /* GALLERY */
 
-    .widget.gallery li span.inner .title, .widget.gallery li span.inner .description {
+  .widget.gallery li span.inner .title, .widget.gallery li span.inner .description {
     font-size:bkscale(@font-swatch5-font-size,0.9);
     line-height:bkscale(@font-swatch5-line-height,0.9);
-    }
+  }
 
 }
 
