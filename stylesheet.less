@@ -1221,7 +1221,7 @@ color: @color-swatch1;
     display: block;
     float: left;
     padding: 0;
-    width: 80%;
+    width: 100%;
     margin-bottom: 1em;
 }
 
@@ -1243,51 +1243,43 @@ color: @color-swatch1;
 
     /* NAV */
 
-  .top-nav {
-    border-bottom: 1px solid lighten(@color-swatch6,30%);
-  }
-
-  .widget.extendednavigation .bk-overlay {
-      width: 200px;
-      height: 85px;
-      float: right;
-      top: -85px !important;
-      left: 90% !important;
-  }
-
-
   .widget.extendednavigation {
       display: block;
-      width: 100%%;
+      width: 100%;
+      background-color: @color-swatch3;
+      min-height: 44px;
+      clear: both;
   }
 
-   /* NAV ICON */
+   /* ----------- NAV ICON ------------- */
 
-  .widget .extendednavigation a.pull {
-    display: block;
-    margin-right: 5%;
-    top: 5px;
-    position: absolute;
-  }
+          .widget .extendednavigation a.pull {
+            display: block;
+            margin-right: 5%;
+            top: 5px;
+            position: absolute;
+          }
 
-    .widget .extendednavigation a.pull:after {
-    content:"";
-    width: 30px;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+            .widget .extendednavigation a.pull:after {
+            content:"";
+            width: 30px;
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            top: 10px;
+            background: @color-swatch4;
+            box-shadow: 0 6px 0 @color-swatch4, 0 12px 0 @color-swatch4;
+          }
 
-  /* NAV */
 
 .widget.extendednavigation ul li > ul {
   display: none !important;
 }
   
  .widget .extendednavigation ul {
-    border-top: 1px solid lighten(@color-swatch6,30%);
+    border-bottom: 1px solid lighten(@color-swatch6,30%);
     padding: 0;
+    margin-top: 44px;
   }
 
  .widget.extendednavigation ul li {
@@ -1296,6 +1288,8 @@ color: @color-swatch1;
     text-align: left;
     display: block;
   }
+
+
 
    .widget.extendednavigation ul li:last-child {
     border-bottom: none;
@@ -1354,6 +1348,7 @@ color: @color-swatch1;
       z-index: 500;
       margin-top: 16px;
       background-color: darken(@color-swatch7,3%);
+      border-bottom: none;
   }
 
   .widget.extendednavigation ul li:hover > ul > li {
