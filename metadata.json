@@ -2,6 +2,7 @@
 	"name":"Mark Neil",
 	"thumbnail":"mark-neil.png",
 	"screenshot":"mark-neil.png",
+	"templateType":"standard",
     "tags": {
     "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "flexible", "open", "simple", "independent", "art", "portfolio", "design", "creative"],
     "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "flexible", "abierto", "simple", "independiente", "arte", "portafolio", "diseño", "creativo"],
