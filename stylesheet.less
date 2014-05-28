@@ -76,7 +76,10 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
 
 .vertical-nav {
   border-right: 1px solid @color-swatch4;
-  float: left;
+  float: right;
+  @media @tablet {
+    float: left;
+  }
 }
 
 .companyheader {
