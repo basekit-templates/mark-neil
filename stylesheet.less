@@ -76,10 +76,8 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
 
 .vertical-nav {
   border-right: 1px solid @color-swatch4;
-  float: right;
-  @media @tablet {
-    float: left;
-  }
+  width: 200px;
+  display: inline-block;
 }
 
 .companyheader {
@@ -138,7 +136,8 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
     ul {
       padding: 150px 0 0 10px;
       margin: 0;
-      background-color: @color-swatch1;
+      width: 200px;
+      background-color: transparent;
       li {
         display: block;
         width: 100%;
@@ -199,8 +198,9 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
     background-color: @color-swatch7;
     z-index: 500;
     padding: 0;
-    margin: -44px 0 0 189px;
+    margin: -44px 0 0 190px;
     border-left: 1px solid @color-swatch4;
+    text-align: left;
 }
 
 .vertical-nav .widget.extendednavigation li:hover > ul > li {
@@ -227,7 +227,6 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
 .main .widget.extendednavigation {
     max-width: 100%;
     width: 100%;
-    float: none;
 }
 
 /* ===============================
