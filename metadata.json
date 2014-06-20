@@ -2,6 +2,7 @@
 	"name":"Mark Neil",
 	"thumbnail":"mark-neil.png",
 	"screenshot":"mark-neil.png",
+	"templateType":"standard",
     "tags": {
     "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "flexible", "open", "simple", "independent", "art", "portfolio", "design", "creative"],
     "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "flexible", "abierto", "simple", "independiente", "arte", "portafolio", "diseño", "creativo"],
@@ -12,7 +13,7 @@
         "Swatch 1": {
             "color1":"#ffffff",
             "color2":"#619790",
-            "color3":"#f2f2f2",
+            "color3":"#dddddd",
             "color4":"#8c8b8c",
             "color5":"#3a302d",
             "color6":"#8c8b8c",
