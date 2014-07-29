@@ -195,14 +195,13 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
 
 .vertical-nav .widget.extendednavigation li:hover > ul {
     display: block;
-    position: absolute;
     width: 100%;
-    background-color: @color-swatch7;
-    z-index: 500;
+    background-color: darken(@color-swatch1,3%);
+    z-index: 999999;
     padding: 0;
-    margin: -44px 0 0 190px;
-    border-left: 1px solid @color-swatch4;
-    text-align: left;
+    margin: 0;
+    border-left: none;
+    text-align: right;
 }
 
 .vertical-nav .widget.extendednavigation li:hover > ul > li {
