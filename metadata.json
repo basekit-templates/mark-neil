@@ -13,7 +13,7 @@
         "Swatch 1": {
             "color1":"#ffffff",
             "color2":"#619790",
-            "color3":"#dddddd",
+            "color3":"#f1f1f1",
             "color4":"#8c8b8c",
             "color5":"#3a302d",
             "color6":"#8c8b8c",
@@ -59,7 +59,7 @@
     "fontSwatch": {
        "title": "PT Sans",
         "font1": {
-            "font-family": "\"PT Sans\", Tahoma, Geneva, sans-serif",
+            "font-family": "\"PT Mono\", \"Courier New\", Courier, monospace",
             "font-size": "30px",
             "font-weight": "400",
             "line-height": "40px",
@@ -67,7 +67,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"PT Sans\", Tahoma, Geneva, sans-serif",
+            "font-family": "\"PT Mono\", \"Courier New\", Courier, monospace",
             "font-size": "28px",
             "font-weight": "inherit",
             "line-height": "38px",
@@ -75,7 +75,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"PT Sans\", Tahoma, Geneva, sans-serif",
+            "font-family": "\"PT Mono\", \"Courier New\", Courier, monospace",
             "font-size": "22px",
             "font-weight": "inherit",
             "line-height": "32px",
@@ -104,7 +104,7 @@
             "font-weight": "400",
             "line-height": "24px",
             "color": "@color-swatch6",
-            "color-hover": "lighten(@color-swatch6,15%)",
+            "color-hover": "@color-swatch2",
             "letter-spacing": "inherit",
             "background-color": "@color-swatch7",
             "background-color-hover": "@color-swatch7"
