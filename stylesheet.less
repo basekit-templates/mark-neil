@@ -746,7 +746,6 @@ hr.line {
 
 .widget.socialicons span a,
 .widget.profile .bk-profile-socialicons span a {
-    background-color: @color-swatch3;
     border: 1px solid fade(@color-swatch4,50%);
     display: inline-block;
     margin-right: 6px;
@@ -756,10 +755,17 @@ hr.line {
     overflow:hidden;
 }
 
-.widget.socialicons span a,
-.widget.profile .bk-profile-socialicons span a {
+.widget.socialicons span a {
+    background-color: @font-swatch7-background-color;
     &:hover {
-        border:none;
+        background-color: @font-swatch7-background-color-hover;
+    }
+}
+
+.widget.profile .bk-profile-socialicons span a {
+    background-color: @color-swatch1;
+    &:hover {
+        background-color: @color-swatch3;
     }
 }
 
@@ -772,10 +778,7 @@ hr.line {
   color: @font-swatch4-color;
 }
 
-
-
 /* SVG ICONS */
-
 
 .svg .logo-nav-info .widget.socialicons span.bk-socialicons-twitter a,
 .svg .logo-nav-info .widget.profile .bk-profile-socialicons span.bk-socialicons-twitter a {
@@ -829,39 +832,9 @@ hr.line {
     background-image: image('/images/social/socialicons-youtube.png')
 }
 
-
-/* A:HOVER ICONS */
-
-.widget.socialicons span.bk-socialicons-twitter a:hover,
-.widget.profile .bk-profile-socialicons span.bk-socialicons-twitter a:hover {
-    background-color: #4099FF;
-}
-.widget.socialicons span.bk-socialicons-linkedin a:hover,
-.widget.profile .bk-profile-socialicons span.bk-socialicons-linkedin a:hover {
-    background-color: #007bb6;
-}
-.widget.socialicons span.bk-socialicons-facebook a:hover,
-.widget.profile .bk-profile-socialicons span.bk-socialicons-facebook a:hover {
-    background-color: #3B5998;
-}
-.widget.socialicons span.bk-socialicons-rss a:hover,
-.widget.profile .bk-profile-socialicons span.bk-socialicons-rss a:hover {
-    background-color: #FF6600;
-}
-.widget.socialicons span.bk-socialicons-googleplus a:hover,
-.widget.profile .bk-profile-socialicons span.bk-socialicons-googleplus a:hover {
-    background-color: #dd4b39;
-}
-.widget.socialicons span.bk-socialicons-youtube a:hover,
-.widget.profile .bk-profile-socialicons span.bk-socialicons-youtube a:hover {
-    background-color: #bb0000;
-}
-
-
 /* ===============================
    PROFILE WIDGET
    =============================== */
-
 
 .main .widget.profile {
   margin: 0;
