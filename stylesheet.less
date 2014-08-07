@@ -1845,9 +1845,6 @@ footer.blog-post-metadata time {
     }
 }
 
-
-
-
 /* ===============================
   ECOM - BASKET
    =============================== */
@@ -1879,7 +1876,6 @@ footer.blog-post-metadata time {
         }
     }
 }
-
 
 /* ======================================
    ECOM - PRODUCTLIST & FEATURED PRODUCTS
@@ -2230,7 +2226,8 @@ input, textarea {
 .checkout-empty-link,
 .blog-post-more-link a,
 .blog-list-footer a,
-.ecom-product-go-to-checkout-btn {
+.ecom-product-go-to-checkout-btn,
+a.btn.ecombasket-summary-link {
   padding: 16px 40px;
   margin: 0;
   font-family: @font-swatch7-font-family;
@@ -2245,6 +2242,11 @@ input, textarea {
     background-color: @font-swatch7-background-color-hover;
     cursor: pointer;
   }
+}
+
+a.btn.ecombasket-summary-link {
+  margin: 1em 0;
+  display: inline-block;
 }
 
 div.ecom-product-go-to-checkout-btn-wrapper {
