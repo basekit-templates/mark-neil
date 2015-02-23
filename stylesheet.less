@@ -36,7 +36,7 @@ blockquote:before {
     margin-top: 6.4em;
 }
 
-.right-content { 
+.right-content {
     padding-left: 240px;
 }
 
@@ -66,7 +66,7 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
   padding: 20px 20px 150px;
   margin: 0;
   border-right: 1px solid @color-swatch4;
-  @media only screen and (max-width: 768px) { 
+  @media only screen and (max-width: 768px) {
     border-right: none;
   }
   nav {
@@ -107,7 +107,7 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
   font-size: @font-swatch10-font-size;
   padding: 0;
   text-align: right;
-  @media only screen and (max-width: 768px) { 
+  @media only screen and (max-width: 768px) {
     text-align: left;
     width: 100%;
   }
@@ -267,6 +267,9 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
     &:hover, &:focus {
       cursor: pointer;
       background-color: darken(@color-swatch3,5%);
+    }
+    .more, .less {
+      color: @font-swatch7-color;
     }
   }
 }
@@ -596,7 +599,7 @@ hr.line {
     text-decoration: none;
     letter-spacing: 1px;
 }
-  
+
 .widget.contactform fieldset button.btn:hover {
   background-color: @font-swatch7-background-color-hover;
   cursor: pointer;
@@ -1138,7 +1141,7 @@ footer {
     .btn-next {
       background-image: image('/images/slideshow-arrow-right.png');
       background-repeat: no-repeat;
-      background-position: center;    
+      background-position: center;
     }
     /* Play Button */
     .btn-play {
@@ -1194,11 +1197,11 @@ footer {
    IPAD WIDTH
    =============================== */
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
 
 
 body {
-  border-top: 4px solid @color-swatch2; 
+  border-top: 4px solid @color-swatch2;
 }
 
 .bk-header {
@@ -1315,11 +1318,11 @@ body {
 .widget.extendednavigation ul li > ul {
   display: none !important;
 }
-  
+
  .widget .extendednavigation ul {
     border-bottom: 1px solid lighten(@color-swatch6,30%);
     padding: 0;
-    margin-top: 44px; 
+    margin-top: 44px;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
@@ -1376,7 +1379,7 @@ body {
 
 .widget.extendednavigation ul li.folder .text:hover {
     color: @font-swatch6-color-hover;
-   
+
 }
 
   .widget.extendednavigation ul li:hover > ul {
@@ -1447,7 +1450,7 @@ body {
    IPHONE WIDTH
    =============================== */
 
-@media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 480px) {
 
     .bk-footer {
         padding: 20px 0 5px;
@@ -1534,7 +1537,7 @@ body {
 
 }
 
-@media only screen and (min-width: 1140px) { 
+@media only screen and (min-width: 1140px) {
     .wrapper {
         width: 960px;
         /* 1140px - 10% for margins */
@@ -1624,7 +1627,7 @@ body {
                     &.menu-item-promoted { /* menu-item-promoted */
                         display: inline-block;
                         .inner-item {
-                            &:before { 
+                            &:before {
                                 content: "\2605";
                                 font-size: 20px;
                                 position: absolute;
@@ -1643,7 +1646,7 @@ body {
                             .menu-item-price p {
                                 color: @color-swatch2;
                             }
-                        }  
+                        }
                     }/* end menu-item-promoted */
                     .inner-item {
                         h3 {
@@ -1683,7 +1686,7 @@ body {
                                 margin-bottom: 5px;
                                 padding: 0 3px;
                                 position: relative;
-                                &:before { 
+                                &:before {
                                     content: "\2605";
                                     font-size: 8px;
                                     color: @color-swatch2;
@@ -1699,7 +1702,7 @@ body {
             .menu-subsection {
                 padding: 0;
                 margin: 0;
-                .menu-subsection-promoted { /* PROMOTED SUB-SECTION */ 
+                .menu-subsection-promoted { /* PROMOTED SUB-SECTION */
                     border: 1px dotted @color-swatch2;
                     padding: 0 2em 2em;
                     margin: 2em 0 1em;
@@ -1819,7 +1822,7 @@ footer.blog-post-metadata time {
             background-color: #3b5998;
             color: #ffffff;
           }
-          
+
         }
         &.btn.twitter {
             background-color: lighten(#4099FF,35%);
@@ -2212,10 +2215,10 @@ input, textarea {
         background-color: @font-swatch7-background-color-hover;
         cursor: pointer;
     }
-} 
+}
 
-.blogsearch form button, 
-.checkout-order-button, 
+.blogsearch form button,
+.checkout-order-button,
 .checkout-empty-link,
 .blog-post-more-link a,
 .blog-list-footer a,
@@ -2253,7 +2256,7 @@ div.ecom-product-go-to-checkout-btn-wrapper {
         background-color: @font-swatch7-background-color-hover;
         text-decoration: none;
     }
-} 
+}
 
 .widget.ecombasket .ecombasket-pull {
     p:before {
@@ -2327,7 +2330,7 @@ div.ecom-product-go-to-checkout-btn-wrapper {
         display: inline-block;
         @media @mobile {
             width: 100%;
-        }       
+        }
     }
 }
 
@@ -2361,7 +2364,7 @@ select[name="displayCount"] {
 }
 
 .blogsearch form {
-    input { 
+    input {
         border: 1px solid @color-swatch6;
         background-color: darken(@color-swatch1,2%);
         width: 42%;
@@ -2375,7 +2378,7 @@ select[name="displayCount"] {
 }
 
 .widget.ecomproductslist .productlist-filter .productlist-display-form .form-group.productlist-search {
-    input { 
+    input {
         border: 1px solid @color-swatch6;
         background-color: darken(@color-swatch1,2%);
         width: 42%;
@@ -2404,7 +2407,7 @@ select[name="displayCount"] {
     }
 }
 
-    
+
 /* PNG Icons */
 
 .widget.ecombasket .ecombasket-pull p:before,
