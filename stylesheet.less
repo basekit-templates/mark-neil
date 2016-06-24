@@ -24,16 +24,15 @@ blockquote:before {
 }
 
 .left-nav {
-    background: transparent;
+    background-color: @color-swatch1;
     z-index: 9999;
     width: 240px;
-    height: 100%;
+    height: calc(100% - 6.4em);
     position: fixed;
     overflow-x: hidden;
     overflow-y: auto;
-    top: 0px;
+    top: 6.4em;
     left: 0px;
-    margin-top: 6.4em;
 }
 
 .right-content {
@@ -139,8 +138,6 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
     .clearfix;
     position: relative;
     background-color: @color-swatch1;
-    height: 100%;
-    overflow: scroll;
     ul {
       padding: 0 20px;
       margin: 0;
