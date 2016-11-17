@@ -535,18 +535,21 @@ hr.line {
    CONTACT FORM WIDGET
    =============================== */
 
-.widget.contactform form {
+.widget.contactform form,
+.advancedcontactform form {
     display: block;
     margin-bottom: 20px;
     background-color: @color-swatch1;
 }
 
-.widget.contactform fieldset {
+.widget.contactform fieldset,
+.advancedcontactform fieldset {
     border: none;
     padding: 0;
 }
 
-.widget.contactform fieldset label {
+.widget.contactform fieldset label,
+.advancedcontactform fieldset label {
     width: 100%;
     float: left;
     font-family:@font-swatch5-font-family;
@@ -557,7 +560,8 @@ hr.line {
     letter-spacing: @font-swatch5-letter-spacing;
 }
 
-.widget.contactform fieldset input {
+.widget.contactform fieldset input,
+.advancedcontactform fieldset input {
     height: 40px;
     width: 100%;
     border: 1px solid @color-swatch6;
@@ -571,12 +575,14 @@ hr.line {
     padding: 0;
 }
 
-.widget.contactform fieldset input:focus {
+.widget.contactform fieldset input:focus,
+.advancedcontactform fieldset:focus {
     outline: none;
     box-shadow: 0 0 5px @color-swatch3;
 }
 
-.widget.contactform fieldset textarea {
+.widget.contactform fieldset textarea,
+.advancedcontactform fieldset textarea {
     height: 100px;
     width: 100%;
     border: 1px solid @color-swatch6;
@@ -592,12 +598,14 @@ hr.line {
     padding: 0;
 }
 
-.widget.contactform fieldset textarea:focus {
+.widget.contactform fieldset textarea:focus,
+.advancedcontactform fieldset textarea:focus {
     outline: none;
     box-shadow: 0 0 5px @color-swatch3;
 }
 
-.widget.contactform fieldset button.btn {
+.widget.contactform fieldset button.btn,
+.advancedcontactform fieldset button {
     padding: 16px 40px;
     margin: 0;
     border: 1px solid @color-swatch6;
@@ -610,7 +618,8 @@ hr.line {
     letter-spacing: 1px;
 }
 
-.widget.contactform fieldset button.btn:hover {
+.widget.contactform fieldset button.btn:hover,
+.advancedcontactform fieldset button:hover {
   background-color: @font-swatch7-background-color-hover;
   cursor: pointer;
 }
